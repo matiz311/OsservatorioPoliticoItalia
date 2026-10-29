@@ -1,0 +1,230 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normative lineage and constitutional mapping",
+  "type": "object",
+  "required": [
+    "id",
+    "instrument_type",
+    "title",
+    "status",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "instrument_type": {
+      "enum": [
+        "bill",
+        "ordinary_law",
+        "constitutional_law",
+        "decree_law",
+        "legislative_decree",
+        "presidential_decree",
+        "ministerial_decree",
+        "other"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "submitted",
+        "under_review",
+        "approved",
+        "in_force",
+        "not_enacted",
+        "expired",
+        "repealed",
+        "partially_repealed"
+      ]
+    },
+    "proposed_under_government_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_under_government_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "effective_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "constitutional_comparison": {
+      "type": "object",
+      "required": [
+        "review_status",
+        "original_constitution_date",
+        "applicable_version_date",
+        "articles",
+        "court_decisions"
+      ],
+      "properties": {
+        "review_status": {
+          "enum": [
+            "not_reviewed",
+            "articles_mapped",
+            "constitutional_question_raised",
+            "court_decision_available",
+            "not_applicable"
+          ]
+        },
+        "original_constitution_date": {
+          "const": "1948-01-01"
+        },
+        "applicable_version_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "articles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "article",
+              "sources"
+            ],
+            "properties": {
+              "article": {
+                "type": "string"
+              },
+              "comparison_notes": {
+                "type": "string"
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "court_decisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "reference",
+              "source_url"
+            ],
+            "properties": {
+              "reference": {
+                "type": "string"
+              },
+              "source_url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "disposition": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "prior_norm_relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "target_id",
+          "relation",
+          "source_url"
+        ],
+        "properties": {
+          "target_id": {
+            "type": "string"
+          },
+          "relation": {
+            "enum": [
+              "implements",
+              "amends",
+              "repeals",
+              "converts",
+              "delegated_by",
+              "extends",
+              "refinances",
+              "continues_program",
+              "replaces",
+              "cites"
+            ]
+          },
+          "article_or_clause": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "government_phases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "government_id",
+          "phase",
+          "sources"
+        ],
+        "properties": {
+          "government_id": {
+            "type": "string"
+          },
+          "phase": {
+            "enum": [
+              "proposed",
+              "approved",
+              "implemented",
+              "amended",
+              "repealed"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}
