@@ -1,0 +1,34 @@
+id: example_measure
+# Esempio strutturale, NON una valutazione politica reale.
+title: Misura dimostrativa
+policy_area: example
+government_id: example_government
+status: proposed
+actors:
+  - actor_id: example_party
+    role: party_proponent
+    evidence_basis: Programma ufficiale, pagina X
+legal_basis: []
+implementation:
+  required_secondary_acts: null
+  adopted_secondary_acts: null
+  notes: null
+outcomes:
+  - indicator: Indicatore dimostrativo
+    population: Popolazione di esempio
+    baseline_period: null
+    observed_period: null
+    baseline_value: null
+    observed_value: null
+    unit: null
+    explicit_target: null
+    evaluation_design: descriptive_before_after
+    limitations:
+      - "Nessuna valutazione effettuata: record di esempio."
+    source_ids:
+      - example_source
+external_factors: []
+distributional_notes: []
+unintended_effects: []
+sources:
+  - example_source

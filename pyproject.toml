@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osservatorio-politico-italia"
+version = "0.1.0"
+description = "Dataset e tooling per analizzare governi, misure, attuazione e risultati nella Repubblica italiana"
+requires-python = ">=3.11"
+dependencies = [
+  "jsonschema>=4.20",
+  "PyYAML>=6.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

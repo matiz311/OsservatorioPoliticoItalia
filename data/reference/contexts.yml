@@ -1,0 +1,25 @@
+contexts:
+  - id: global_financial_crisis_2008
+    category: economic_external
+    start: 2008-01-01
+    end: 2009-12-31
+    title: Crisi finanziaria globale
+    status: needs_source_enrichment
+  - id: sovereign_debt_crisis_2011
+    category: economic_european
+    start: 2011-01-01
+    end: 2012-12-31
+    title: Crisi del debito sovrano europeo
+    status: needs_source_enrichment
+  - id: covid19
+    category: health_external
+    start: 2020-01-01
+    end: 2022-12-31
+    title: Pandemia COVID-19
+    status: needs_source_enrichment
+  - id: energy_shock_2022
+    category: geopolitical_economic
+    start: 2022-02-24
+    end: null
+    title: Shock energetico e inflazionistico collegato alla guerra in Ucraina
+    status: needs_source_enrichment

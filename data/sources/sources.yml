@@ -1,0 +1,31 @@
+sources:
+  - id: camera_open_data
+    name: Camera dei deputati - Open Data
+    type: institutional_primary
+    url: https://dati.camera.it/
+    uses: [bills, votes, members, groups, government_roles]
+  - id: senato_open_data
+    name: Senato della Repubblica - Open Data
+    type: institutional_primary
+    url: https://dati.senato.it/
+    uses: [bills, votes, members, groups]
+  - id: normattiva_open_data
+    name: Normattiva Open Data
+    type: institutional_primary
+    url: https://dati.normattiva.it/
+    uses: [laws, legal_text_history]
+  - id: istat_sdmx
+    name: Istat - Web Services SDMX
+    type: institutional_primary
+    url: https://www.istat.it/classificazioni-e-strumenti/web-services-sdmx/
+    uses: [macroeconomics, labor, population, poverty, prices]
+  - id: programma_governo
+    name: Dipartimento per il programma di Governo
+    type: institutional_primary
+    url: https://www.programmagoverno.gov.it/
+    uses: [program_implementation, implementing_decrees]
+  - id: openbdap
+    name: Ragioneria Generale dello Stato - OpenBDAP
+    type: institutional_primary
+    url: https://openbdap.rgs.mef.gov.it/
+    uses: [public_finance]
