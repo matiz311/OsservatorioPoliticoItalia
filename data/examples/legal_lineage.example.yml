@@ -1,0 +1,20 @@
+# Schema dimostrativo: non descrive una norma realmente esistente.
+id: example_legal_instrument
+instrument_type: bill
+title: DDL dimostrativo
+status: submitted
+proposed_under_government_id: example_government
+approved_under_government_id: null
+effective_date: null
+constitutional_comparison:
+  review_status: not_reviewed
+  original_constitution_date: '1948-01-01'
+  applicable_version_date: null
+  articles: []
+  court_decisions: []
+prior_norm_relations: []
+government_phases:
+  - government_id: example_government
+    phase: proposed
+    sources: [example_parliamentary_source]
+sources: [example_parliamentary_source]
