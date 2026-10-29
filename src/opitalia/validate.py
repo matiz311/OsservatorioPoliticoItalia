@@ -7,6 +7,10 @@ import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 
 ROOT = Path(__file__).resolve().parents[2]
+EXAMPLE_SCHEMAS = {
+    "measure.example.yml": "measure.schema.json",
+    "legal_lineage.example.yml": "legal_lineage.schema.json",
+}
 
 
 def validate_yaml(path: Path, schema_path: Path) -> list[str]:
@@ -18,10 +22,10 @@ def validate_yaml(path: Path, schema_path: Path) -> list[str]:
 
 def main() -> int:
     errors: list[str] = []
-    measure_schema = ROOT / "schemas" / "measure.schema.json"
-    for path in (ROOT / "data" / "examples").glob("*.yml"):
-        if "measure" in path.name:
-            errors.extend(validate_yaml(path, measure_schema))
+    for filename, schema_filename in EXAMPLE_SCHEMAS.items():
+        path = ROOT / "data" / "examples" / filename
+        schema_path = ROOT / "schemas" / schema_filename
+        errors.extend(validate_yaml(path, schema_path))
 
     if errors:
         print("Validation failed:")
