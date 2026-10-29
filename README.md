@@ -85,3 +85,11 @@ pytest
 6. Contesti storici e shock esterni.
 7. Schede web generate automaticamente.
 8. Backfill 1946-1994.
+
+## Comparazione costituzionale ed eredità normativa
+
+Il progetto confronta ogni iniziativa e atto, quando le fonti lo consentono, con **tre riferimenti distinti**: testo originario della Costituzione (1948), testo applicabile alla data dell'atto e testo oggi vigente. Registra gli articoli pertinenti e le pronunce ufficiali della Corte, senza generare verdetti automatici di costituzionalità.
+
+È inoltre prevista una **catena normativa tra governi**, che collega proposte, approvazione, attuazione, modifiche, rifinanziamenti e abrogazioni: chi eredita una misura non coincide necessariamente con chi l'ha ideata.
+
+Vedi [Costituzione e continuità](docs/COSTITUZIONE_E_CONTINUITA.md) e lo schema [legal_lineage](schemas/legal_lineage.schema.json).
