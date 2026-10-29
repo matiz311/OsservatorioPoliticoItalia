@@ -93,3 +93,13 @@ Il progetto confronta ogni iniziativa e atto, quando le fonti lo consentono, con
 È inoltre prevista una **catena normativa tra governi**, che collega proposte, approvazione, attuazione, modifiche, rifinanziamenti e abrogazioni: chi eredita una misura non coincide necessariamente con chi l'ha ideata.
 
 Vedi [Costituzione e continuità](docs/COSTITUZIONE_E_CONTINUITA.md) e lo schema [legal_lineage](schemas/legal_lineage.schema.json).
+
+## Interfaccia web
+
+L'interfaccia di esplorazione è in `site/` ed è progettata per GitHub Pages:
+
+**https://matiz311.github.io/PagellePartiti/**
+
+Il workflow `.github/workflows/pages.yml` genera il catalogo JSON dai record YAML usando `scripts/build_site.py` e pubblica il sito. I file `data/examples/` sono intenzionalmente esclusi dalle statistiche: non vanno presentati come dati storici verificati.
+
+Se Pages non è ancora abilitato, aprire **Settings → Pages → Build and deployment → Source: GitHub Actions**. La pubblicazione effettiva dipende dall'esito del workflow GitHub.
