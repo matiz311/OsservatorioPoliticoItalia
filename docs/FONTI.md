@@ -62,3 +62,10 @@ Quando due fonti affidabili divergono:
 2. descrivere la differenza metodologica;
 3. non scegliere automaticamente il risultato più favorevole o sfavorevole a un attore politico;
 4. preferire dati più granulari e metodi più robusti quando la domanda è causale.
+
+## Fonti per comparazione costituzionale
+
+- Senato: [La storia della nostra Costituzione](https://www.senato.it/CESUS/2026/Costituzione/) — progetto costituente, testo approvato, modifiche e cronologia per articolo.
+- Camera: [Costituzione con note storiche](https://leg15.camera.it/cost_reg_funz/345/copertina.asp).
+- Corte costituzionale: [Open Data](https://dati.cortecostituzionale.it/) — pronunce, massime e norme pendenti.
+- Normattiva: [FAQ sulla multivigenza](https://www.normattiva.it/staticPage/faq) — versioni esplicitamente modificate, con il limite delle abrogazioni implicite.
