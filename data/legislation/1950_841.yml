@@ -1,0 +1,59 @@
+{
+  "id": "1950_841",
+  "title": "Norme per la espropriazione, bonifica, trasformazione ed assegnazione dei terreni ai contadini",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1950-10-21",
+  "publication_date": "1950-10-28",
+  "policy_area": "agriculture",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Estende a territori individuati dal Governo le disposizioni fondiarie già previste dalla legge Sila.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vi",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1950-10-21",
+    "articles": [
+      {
+        "article": "Art. 42",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1950_841"
+        ]
+      },
+      {
+        "article": "Art. 44",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1950_841"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [
+    {
+      "target_id": "1950_230",
+      "relation": "extends",
+      "article_or_clause": "Art. 1",
+      "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=050U0841&atto.dataPubblicazioneGazzetta=1950-10-28&tipoDettaglio=originario"
+    }
+  ],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vi",
+      "phase": "approved",
+      "sources": [
+        "law_1950_841"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1950_841"
+  ]
+}

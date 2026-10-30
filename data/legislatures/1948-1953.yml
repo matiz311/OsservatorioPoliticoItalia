@@ -1,0 +1,87 @@
+{
+  "id": "leg_repubblica_i_1948_1953",
+  "name": "I legislatura della Repubblica italiana",
+  "title": "I legislatura — 1948–1953",
+  "start_date": "1948-05-08",
+  "end_date": "1953-06-24",
+  "election_date": "1948-04-18",
+  "dissolution_date": "1953-04-04",
+  "president_republic": [
+    {
+      "name": "Luigi Einaudi",
+      "from": "1948-05-12",
+      "to": "1953-06-24"
+    }
+  ],
+  "president_camera": [
+    {
+      "name": "Giovanni Gronchi",
+      "from": "1948-05-08",
+      "to": "1953-06-24"
+    }
+  ],
+  "presidents_senato": [
+    {
+      "name": "Ivanoe Bonomi",
+      "from": "1948-05-08",
+      "to": "1951-04-20"
+    },
+    {
+      "name": "Enrico De Nicola",
+      "from": "1951-04-28",
+      "to": "1952-06-24"
+    },
+    {
+      "name": "Giuseppe Paratore",
+      "from": "1952-06-26",
+      "to": "1953-03-24"
+    },
+    {
+      "name": "Meuccio Ruini",
+      "from": "1953-03-25",
+      "to": "1953-06-24"
+    }
+  ],
+  "seats": {
+    "camera_elected": 574,
+    "senato_elected": 237,
+    "senato_constitutional_right": 107
+  },
+  "elections": [
+    {
+      "date": "1948-04-18",
+      "contest": "Camera, principali risultati riportati dal Senato",
+      "parties": [
+        {
+          "id": "dc",
+          "percent_votes": 48.5
+        },
+        {
+          "id": "fronte_democratico_popolare",
+          "percent_votes": 35
+        }
+      ],
+      "notes": "Percentuali arrotondate riportate nella cronologia ufficiale del Senato; non corrispondono alla distribuzione completa dei seggi.",
+      "sources": [
+        "first_leg_senato"
+      ]
+    }
+  ],
+  "governments": [
+    "de_gasperi_iv",
+    "de_gasperi_v",
+    "de_gasperi_vi",
+    "de_gasperi_vii"
+  ],
+  "boundary_notes": [
+    "Il governo De Gasperi IV è precedente alla legislatura ma resta in carica sino al 22 maggio 1948.",
+    "Il governo De Gasperi VII continua nella II legislatura fino al 15 luglio 1953.",
+    "Lo scioglimento è datato 4 aprile 1953; la conclusione formale della legislatura è il 24 giugno 1953."
+  ],
+  "sources": [
+    "first_leg_senato",
+    "first_leg_camera",
+    "gronchi_camera",
+    "first_leg_senate_count"
+  ]
+}

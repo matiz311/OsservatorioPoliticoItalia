@@ -1,0 +1,51 @@
+{
+  "id": "1952_645",
+  "title": "Norme di attuazione della XII disposizione transitoria e finale della Costituzione (legge Scelba)",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1952-06-20",
+  "publication_date": "1952-06-23",
+  "policy_area": "constitutional_order",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Disciplina la riorganizzazione del disciolto partito fascista; l'art. 10 interviene su disposizioni antifasciste anteriori.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vii",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1952-06-20",
+    "articles": [
+      {
+        "article": "XII disposizione transitoria e finale",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1952_645"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [
+    {
+      "target_id": "1947_1546",
+      "relation": "partially_repeals",
+      "article_or_clause": "Art. 10, comma 2: limitatamente alle disposizioni incompatibili",
+      "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=052U0645&atto.dataPubblicazioneGazzetta=1952-06-23&tipoDettaglio=originario"
+    }
+  ],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vii",
+      "phase": "approved",
+      "sources": [
+        "law_1952_645"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1952_645"
+  ]
+}

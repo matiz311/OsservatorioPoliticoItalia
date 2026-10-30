@@ -1,0 +1,9 @@
+{
+  "id": "pnm",
+  "name": "Partito Nazionale Monarchico",
+  "category": "partito",
+  "role_in_period": "opposizione",
+  "sources": [
+    "first_leg_senato"
+  ]
+}

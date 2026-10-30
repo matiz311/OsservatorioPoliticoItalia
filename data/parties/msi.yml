@@ -1,0 +1,9 @@
+{
+  "id": "msi",
+  "name": "Movimento Sociale Italiano",
+  "category": "partito",
+  "role_in_period": "opposizione",
+  "sources": [
+    "first_leg_senato"
+  ]
+}

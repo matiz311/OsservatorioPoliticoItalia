@@ -1,0 +1,10 @@
+{
+  "id": "psdi",
+  "name": "Partito Socialista Democratico Italiano",
+  "category": "partito",
+  "role_in_period": "derivazione_dal_1951",
+  "notes": "Nato nel 1951 dalla convergenza di formazioni socialdemocratiche.",
+  "sources": [
+    "first_leg_senato"
+  ]
+}

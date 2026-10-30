@@ -1,0 +1,24 @@
+{
+  "id": "de_gasperi_v",
+  "name": "V governo De Gasperi",
+  "start_date": "1948-05-23",
+  "end_date": "1950-01-26",
+  "legislature": "I",
+  "cabinet_parties": [
+    "dc",
+    "psli",
+    "pri",
+    "pli"
+  ],
+  "sources": [
+    "governo_dg_v",
+    "first_leg_senato",
+    "storia_degasperi"
+  ],
+  "prime_minister": "Alcide De Gasperi",
+  "external_support_parties": [],
+  "contexts": [
+    "ricostruzione_dopoguerra_1948_1953",
+    "guerra_fredda_1948_1953"
+  ]
+}

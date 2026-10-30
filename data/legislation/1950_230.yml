@@ -1,0 +1,52 @@
+{
+  "id": "1950_230",
+  "title": "Provvedimenti per la colonizzazione dell'Altopiano della Sila e dei territori jonici contermini",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1950-05-12",
+  "publication_date": "1950-05-20",
+  "policy_area": "agriculture",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Intervento fondiario territoriale riferito alla Sila e alle aree indicate dalla legge; richiamato dalla successiva legge 841/1950.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vi",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1950-05-12",
+    "articles": [
+      {
+        "article": "Art. 42",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1950_230"
+        ]
+      },
+      {
+        "article": "Art. 44",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1950_230"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vi",
+      "phase": "approved",
+      "sources": [
+        "law_1950_230"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1950_230"
+  ]
+}

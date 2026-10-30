@@ -34,6 +34,8 @@ def main():
         "measures": records("measures"),
         "acts": records("legislation"),
         "governments": records("governments"),
+        "legislatures": records("legislatures"),
+        "parties": records("parties"),
         "contexts": references.get("contexts", []),
         "sources": sources.get("sources", []),
     }

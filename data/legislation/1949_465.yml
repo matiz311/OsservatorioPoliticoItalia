@@ -1,0 +1,52 @@
+{
+  "id": "1949_465",
+  "title": "Ratifica ed esecuzione del Trattato del Nord-Atlantico",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1949-08-01",
+  "publication_date": "1949-08-04",
+  "policy_area": "foreign_policy",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Autorizza la ratifica e l'esecuzione del Trattato firmato il 4 aprile 1949.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_v",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1949-08-01",
+    "articles": [
+      {
+        "article": "Art. 11",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1949_465"
+        ]
+      },
+      {
+        "article": "Art. 80",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1949_465"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_v",
+      "phase": "approved",
+      "sources": [
+        "law_1949_465"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1949_465"
+  ]
+}

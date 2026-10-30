@@ -1,0 +1,9 @@
+{
+  "id": "dc",
+  "name": "Democrazia Cristiana",
+  "category": "partito",
+  "role_in_period": "partecipante_ai_governi",
+  "sources": [
+    "first_leg_senato"
+  ]
+}

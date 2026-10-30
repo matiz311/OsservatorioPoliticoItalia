@@ -1,0 +1,11 @@
+{
+  "id": "psli",
+  "name": "Partito Socialista dei Lavoratori Italiani",
+  "category": "partito",
+  "role_in_period": "partecipante_ai_governi",
+  "notes": "Confluisce nel nuovo PSDI nel 1951; non usare automaticamente le denominazioni come equivalenti in tutte le date.",
+  "sources": [
+    "first_leg_senato",
+    "storia_degasperi"
+  ]
+}

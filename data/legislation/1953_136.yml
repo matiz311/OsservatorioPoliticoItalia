@@ -1,0 +1,44 @@
+{
+  "id": "1953_136",
+  "title": "Istituzione dell'Ente Nazionale Idrocarburi (ENI)",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1953-02-10",
+  "publication_date": "1953-03-27",
+  "policy_area": "energy",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Istituisce l'ENI quale ente pubblico per iniziative nazionali nel settore degli idrocarburi.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vii",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1953-02-10",
+    "articles": [
+      {
+        "article": "Art. 43",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1953_136"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vii",
+      "phase": "approved",
+      "sources": [
+        "law_1953_136"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1953_136"
+  ]
+}

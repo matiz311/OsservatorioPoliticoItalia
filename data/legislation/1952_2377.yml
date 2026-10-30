@@ -1,0 +1,59 @@
+{
+  "id": "1952_2377",
+  "title": "Norme particolari in materia di riforma fondiaria",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1952-12-20",
+  "publication_date": "1952-12-27",
+  "policy_area": "agriculture",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Integra il quadro delle leggi di riforma fondiaria; l'art. 1 fa riferimento all'art. 4 della legge 841/1950.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vii",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1952-12-20",
+    "articles": [
+      {
+        "article": "Art. 42",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1952_2377"
+        ]
+      },
+      {
+        "article": "Art. 44",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1952_2377"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [
+    {
+      "target_id": "1950_841",
+      "relation": "amends",
+      "article_or_clause": "Art. 1: disciplina particolari casi relativi all'art. 4",
+      "source_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=052U2377&atto.dataPubblicazioneGazzetta=1952-12-27&tipoDettaglio=originario"
+    }
+  ],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vii",
+      "phase": "approved",
+      "sources": [
+        "law_1952_2377"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1952_2377"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pli",
+  "name": "Partito Liberale Italiano",
+  "category": "partito",
+  "role_in_period": "partecipante_al_governo_v",
+  "sources": [
+    "first_leg_senato",
+    "storia_degasperi"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "de_gasperi_iv",
+  "name": "IV governo De Gasperi — transizione",
+  "start_date": "1947-05-31",
+  "end_date": "1948-05-22",
+  "legislature": "Assemblea Costituente / transizione I",
+  "cabinet_parties": [
+    "dc",
+    "psli",
+    "pri",
+    "pli"
+  ],
+  "sources": [
+    "governo_dg_iv",
+    "first_leg_senato",
+    "storia_degasperi"
+  ],
+  "prime_minister": "Alcide De Gasperi",
+  "external_support_parties": [],
+  "contexts": [
+    "ricostruzione_dopoguerra_1948_1953",
+    "guerra_fredda_1948_1953"
+  ]
+}

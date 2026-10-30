@@ -169,7 +169,8 @@
               "refinances",
               "continues_program",
               "replaces",
-              "cites"
+              "cites",
+              "partially_repeals"
             ]
           },
           "article_or_clause": {
@@ -224,6 +225,32 @@
       "items": {
         "type": "string"
       }
+    },
+    "policy_area": {
+      "type": "string"
+    },
+    "legislature_id": {
+      "type": "string"
+    },
+    "law_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "publication_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "present_legal_status": {
+      "type": "string",
+      "enum": [
+        "not_verified",
+        "verified_current",
+        "verified_repealed",
+        "verified_partial"
+      ]
+    },
+    "historical_summary": {
+      "type": "string"
     }
   },
   "additionalProperties": false

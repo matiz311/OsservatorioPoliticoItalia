@@ -98,8 +98,12 @@ Vedi [Costituzione e continuità](docs/COSTITUZIONE_E_CONTINUITA.md) e lo schema
 
 L'interfaccia di esplorazione è in `site/` ed è progettata per GitHub Pages:
 
-**https://matiz311.github.io/PagellePartiti/**
+**https://matiz311.github.io/OsservatorioPoliticoItalia/**
 
 Il workflow `.github/workflows/pages.yml` genera il catalogo JSON dai record YAML usando `scripts/build_site.py` e pubblica il sito. I file `data/examples/` sono intenzionalmente esclusi dalle statistiche: non vanno presentati come dati storici verificati.
 
 Se Pages non è ancora abilitato, aprire **Settings → Pages → Build and deployment → Source: GitHub Actions**. La pubblicazione effettiva dipende dall'esito del workflow GitHub.
+
+## Prima legislatura importata
+
+Inserita una prima selezione verificata di **15 atti normativi**, **tre governi della I legislatura** (più il IV come antecedente in carica all'avvio), partiti, dati istituzionali ed elettorali e sei contesti storici. La selezione non è l'elenco completo delle norme del periodo. Vedi [dossier 1948–1953](docs/LEGISLATURA_I_1948_1953.md).

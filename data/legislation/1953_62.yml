@@ -1,0 +1,60 @@
+{
+  "id": "1953_62",
+  "title": "Costituzione e funzionamento degli organi regionali",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1953-02-10",
+  "publication_date": "1953-03-03",
+  "policy_area": "institutions",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Regola organizzazione, potestà normativa e funzionamento degli organi regionali; non implica l'immediata istituzione delle Regioni a statuto ordinario.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vii",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1953-02-10",
+    "articles": [
+      {
+        "article": "Art. 5",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1953_62"
+        ]
+      },
+      {
+        "article": "Art. 114 ss.",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1953_62"
+        ]
+      },
+      {
+        "article": "Art. 117",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1953_62"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vii",
+      "phase": "approved",
+      "sources": [
+        "law_1953_62"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1953_62"
+  ]
+}

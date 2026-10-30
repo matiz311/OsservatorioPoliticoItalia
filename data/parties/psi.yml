@@ -1,0 +1,9 @@
+{
+  "id": "psi",
+  "name": "Partito Socialista Italiano",
+  "category": "partito",
+  "role_in_period": "opposizione",
+  "sources": [
+    "first_leg_senato"
+  ]
+}

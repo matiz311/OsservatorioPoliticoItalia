@@ -23,3 +23,45 @@ contexts:
     end: null
     title: Shock energetico e inflazionistico collegato alla guerra in Ucraina
     status: needs_source_enrichment
+  - id: ricostruzione_dopoguerra_1948_1953
+    category: historical_economic
+    start: 1948-05-08
+    end: 1953-06-24
+    title: Ricostruzione economica e istituzionale nel secondo dopoguerra
+    status: documented_context
+    sources: [first_leg_senato, storia_degasperi]
+  - id: guerra_fredda_1948_1953
+    category: geopolitical
+    start: 1948-05-08
+    end: 1953-06-24
+    title: Guerra fredda e polarizzazione politica nel primo Parlamento repubblicano
+    status: documented_context
+    sources: [first_leg_senato, storia_degasperi]
+  - id: attentato_togliatti_1948
+    category: political_social
+    start: 1948-07-14
+    end: 1948-07-14
+    title: Attentato a Palmiro Togliatti e mobilitazioni sindacali
+    status: documented_context
+    sources: [first_leg_senato]
+  - id: guerra_corea_1950
+    category: geopolitical
+    start: 1950-06-25
+    end: 1953-07-27
+    title: Guerra di Corea e ripercussioni sulla politica di sicurezza e le risorse
+    status: documented_context
+    sources: [storia_degasperi]
+  - id: riorganizzazione_sindacale_1948_1950
+    category: political_social
+    start: 1948-10-01
+    end: 1950-05-01
+    title: Scissioni sindacali e costituzione di nuove confederazioni
+    status: documented_context
+    sources: [first_leg_senato]
+  - id: legge_elettorale_1953
+    category: institutional
+    start: 1953-03-31
+    end: 1953-06-07
+    title: Riforma della legge elettorale e competizione elettorale del 1953
+    status: documented_context
+    sources: [first_leg_senato, law_1953_148]

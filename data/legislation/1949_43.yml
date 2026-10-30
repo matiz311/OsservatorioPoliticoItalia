@@ -1,0 +1,61 @@
+{
+  "id": "1949_43",
+  "title": "Provvedimenti per incrementare l'occupazione operaia, agevolando la costruzione di case per lavoratori (INA-Casa)",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1949-02-28",
+  "publication_date": "1949-03-07",
+  "policy_area": "housing",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Istituisce il meccanismo del piano per case ai lavoratori e il relativo Comitato di attuazione; gli effetti quantitativi vanno verificati su un periodo pluriennale.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_v",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1949-02-28",
+    "articles": [
+      {
+        "article": "Art. 4",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1949_43"
+        ]
+      },
+      {
+        "article": "Art. 35",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1949_43"
+        ]
+      },
+      {
+        "article": "Art. 47",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1949_43"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_v",
+      "phase": "approved",
+      "sources": [
+        "law_1949_43"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1949_43",
+    "ina_archivio"
+  ]
+}

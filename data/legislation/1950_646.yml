@@ -1,0 +1,52 @@
+{
+  "id": "1950_646",
+  "title": "Istituzione della Cassa per opere straordinarie di pubblico interesse nell'Italia meridionale",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1950-08-10",
+  "publication_date": "1950-09-01",
+  "policy_area": "territorial_development",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Istituisce la Cassa per il Mezzogiorno per interventi pubblici di sviluppo e infrastrutture nelle aree meridionali.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vi",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1950-08-10",
+    "articles": [
+      {
+        "article": "Art. 3",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1950_646"
+        ]
+      },
+      {
+        "article": "Art. 5",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1950_646"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vi",
+      "phase": "approved",
+      "sources": [
+        "law_1950_646"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1950_646"
+  ]
+}

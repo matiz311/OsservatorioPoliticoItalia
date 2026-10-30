@@ -1,0 +1,52 @@
+{
+  "id": "1952_766",
+  "title": "Ratifica del Trattato istitutivo della Comunità europea del carbone e dell'acciaio (CECA)",
+  "instrument_type": "ordinary_law",
+  "legislature_id": "leg_repubblica_i_1948_1953",
+  "law_date": "1952-06-25",
+  "publication_date": "1952-07-12",
+  "policy_area": "european_integration",
+  "status": "approved",
+  "present_legal_status": "not_verified",
+  "historical_summary": "Ratifica accordi internazionali firmati a Parigi nel 1951, fra cui il Trattato CECA.",
+  "proposed_under_government_id": null,
+  "approved_under_government_id": "de_gasperi_vii",
+  "effective_date": null,
+  "constitutional_comparison": {
+    "review_status": "articles_mapped",
+    "original_constitution_date": "1948-01-01",
+    "applicable_version_date": "1952-06-25",
+    "articles": [
+      {
+        "article": "Art. 11",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1952_766"
+        ]
+      },
+      {
+        "article": "Art. 80",
+        "comparison_notes": "Articolo collegato per materia; la pertinenza non costituisce accertamento di conformità costituzionale.",
+        "sources": [
+          "costituzione_orig",
+          "law_1952_766"
+        ]
+      }
+    ],
+    "court_decisions": []
+  },
+  "prior_norm_relations": [],
+  "government_phases": [
+    {
+      "government_id": "de_gasperi_vii",
+      "phase": "approved",
+      "sources": [
+        "law_1952_766"
+      ]
+    }
+  ],
+  "sources": [
+    "law_1952_766"
+  ]
+}

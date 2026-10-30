@@ -2,7 +2,7 @@
 "use strict";
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const label = {measure:"Misura",act:"Atto",government:"Governo",context:"Contesto"};
+const label = {measure:"Misura",act:"Atto",government:"Governo",context:"Contesto",legislature:"Legislatura",party:"Partito"};
 let records = [], selected = null;
 const sourceLink = id => {
  const entry = (window.catalogSources || []).find(s => s.id === id);
@@ -21,6 +21,14 @@ function detail(item) {
  if(d.government_phases)parts.push('<h4>Fasi tra governi</h4>'+li(d.government_phases.map(g=>esc(g.government_id)+' — '+esc(g.phase))));
  if(d.outcomes)parts.push('<h4>Risultati osservati</h4>'+li(d.outcomes.map(o=>esc(o.indicator)+' — '+esc(o.evaluation_design))));
  if(d.sources)parts.push('<h4>Fonti</h4>'+li(d.sources.map(sourceLink)));
+ if(d.historical_summary)parts.push('<h4>Oggetto della legge</h4><p>'+esc(d.historical_summary)+'</p>');
+ if(d.present_legal_status==="not_verified")parts.push('<p><strong>Vigenza attuale:</strong> non verificata. La scheda documenta l’approvazione storica.</p>');
+ if(d.law_date)parts.push('<h4>Atto</h4><dl><dt>Data legge</dt><dd>'+esc(d.law_date)+'</dd><dt>Pubblicazione</dt><dd>'+display(d.publication_date)+'</dd></dl>');
+ if(d.cabinet_parties)parts.push('<h4>Partiti nel governo</h4>'+li(d.cabinet_parties.map(esc)));
+ if(d.president_camera)parts.push('<h4>Presidente Camera</h4>'+li(d.president_camera.map(x=>esc(x.name))));
+ if(d.presidents_senato)parts.push('<h4>Presidenti Senato</h4>'+li(d.presidents_senato.map(x=>esc(x.name))));
+ if(d.boundary_notes)parts.push('<h4>Note cronologiche</h4>'+li(d.boundary_notes.map(esc)));
+ if(d.start_date)parts.push('<h4>Periodo</h4><p>'+esc(d.start_date)+' — '+display(d.end_date)+'</p>');
  if(d.start)parts.push('<h4>Periodo</h4><p>'+esc(d.start)+' — '+esc(d.end||"in corso / da confermare")+'</p>');
  if(d.status==="needs_source_enrichment") parts.push('<p><strong>Record incompleto:</strong> fonti e cronologia da verificare.</p>');
  $("detail").innerHTML=parts.join("");
@@ -41,7 +49,7 @@ async function init(){
  if(!res.ok)throw Error("HTTP "+res.status);
  const raw=await res.json();
  window.catalogSources=raw.sources||[];
- records=[...((raw.measures||[]).map(d=>({type:"measure",data:d}))),...((raw.acts||[]).map(d=>({type:"act",data:d}))),...((raw.governments||[]).map(d=>({type:"government",data:d}))),...((raw.contexts||[]).map(d=>({type:"context",data:d})))].map(x=>({...x,key:x.type+":"+x.data.id}));
+ records=[...((raw.measures||[]).map(d=>({type:"measure",data:d}))),...((raw.acts||[]).map(d=>({type:"act",data:d}))),...((raw.governments||[]).map(d=>({type:"government",data:d}))),...((raw.contexts||[]).map(d=>({type:"context",data:d}))),...((raw.legislatures||[]).map(d=>({type:"legislature",data:d}))),...((raw.parties||[]).map(d=>({type:"party",data:d})))].map(x=>({...x,key:x.type+":"+x.data.id}));
  for(const [id,category] of [["nMeasures","measure"],["nActs","act"],["nGovernments","government"],["nContexts","context"]]) $(id).textContent=records.filter(x=>x.type===category).length.toLocaleString("it");
  const states=[...new Set(records.map(x=>x.data.status).filter(Boolean))].sort();
  $("status").innerHTML='<option value="all">Tutti gli stati</option>'+states.map(s=>'<option value="'+esc(s)+'">'+esc(s)+'</option>').join("");

@@ -29,3 +29,153 @@ sources:
     type: institutional_primary
     url: https://openbdap.rgs.mef.gov.it/
     uses: [public_finance]
+  - id: first_leg_senato
+    name: "Senato — I legislatura, cronologia ed eventi"
+    type: institutional_primary
+    url: https://www.senato.it/leg1/home
+    uses: [history, documentary_trace]
+  - id: first_leg_camera
+    name: "Camera — Portale storico, I legislatura"
+    type: institutional_primary
+    url: https://storia.camera.it/legislature/leg-repubblica-I
+    uses: [history, documentary_trace]
+  - id: governo_dg_iv
+    name: "Senato — Governo De Gasperi IV"
+    type: institutional_primary
+    url: https://www.senato.it/legislature/1/composizione/il-governo?did=35
+    uses: [history, documentary_trace]
+  - id: governo_dg_v
+    name: "Senato — Governo De Gasperi V"
+    type: institutional_primary
+    url: https://www.senato.it/legislature/1/composizione/il-governo?did=36
+    uses: [history, documentary_trace]
+  - id: governo_dg_vi
+    name: "Senato — Governo De Gasperi VI"
+    type: institutional_primary
+    url: https://www.senato.it/legislature/1/composizione/il-governo?did=37
+    uses: [history, documentary_trace]
+  - id: governo_dg_vii
+    name: "Senato — Governo De Gasperi VII"
+    type: institutional_primary
+    url: https://www.senato.it/legislature/1/composizione/il-governo?did=38
+    uses: [history, documentary_trace]
+  - id: first_leg_fiducia
+    name: "Senato — Dossier storico votazioni di fiducia"
+    type: institutional_primary
+    url: https://www.senato.it/show-doc?id=1209491&idoggetto=0&leg=18&part=dossier_dossier1-sezione_sezione8&tipodoc=DOSSIER
+    uses: [history, documentary_trace]
+  - id: gronchi_camera
+    name: "Camera — Giovanni Gronchi, I legislatura"
+    type: institutional_primary
+    url: https://storia.camera.it/presidenti/gronchi-giovanni/i-legislatura-della-repubblica-italiana
+    uses: [history, documentary_trace]
+  - id: storia_degasperi
+    name: "Quirinale — biografia e attività di De Gasperi"
+    type: institutional_primary
+    url: https://archivio.quirinale.it/aspr/presidente/biografia/alcide-de-gasperi
+    uses: [history, documentary_trace]
+  - id: costituzione_orig
+    name: "Normattiva — Costituzione, testo originario 1948"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=047U0001&atto.dataPubblicazioneGazzetta=1947-12-27&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: costituzione_versioni
+    name: "Senato — storia della Costituzione per articolo"
+    type: institutional_primary
+    url: https://www.senato.it/relazioni-con-i-cittadini/pubblicazioni-del-senato/indice-per-collana/costituzione-e-regolamento
+    uses: [history, documentary_trace]
+  - id: law_1949_43
+    name: "Normattiva — legge 28 febbraio 1949 n. 43 (INA-Casa)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=049U0043&atto.dataPubblicazioneGazzetta=1949-03-07&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1949_465
+    name: "Gazzetta — legge 1 agosto 1949 n. 465 (NATO)"
+    type: institutional_primary
+    url: https://www.gazzettaufficiale.it/eli/id/1949/08/04/049U0465/sg
+    uses: [history, documentary_trace]
+  - id: law_1950_230
+    name: "Gazzetta — legge 12 maggio 1950 n. 230 (Sila)"
+    type: institutional_primary
+    url: https://www.gazzettaufficiale.it/eli/id/1950/05/20/050U0230/sg
+    uses: [history, documentary_trace]
+  - id: law_1950_646
+    name: "Gazzetta — legge 10 agosto 1950 n. 646 (Cassa Mezzogiorno)"
+    type: institutional_primary
+    url: https://www.gazzettaufficiale.it/eli/id/1950/09/01/050U0646/sg
+    uses: [history, documentary_trace]
+  - id: law_1950_841
+    name: "Normattiva — legge 21 ottobre 1950 n. 841 (riforma fondiaria)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=050U0841&atto.dataPubblicazioneGazzetta=1950-10-28&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1951_25
+    name: "Gazzetta — legge 11 gennaio 1951 n. 25 (Vanoni)"
+    type: institutional_primary
+    url: https://www.gazzettaufficiale.it/eli/id/1951/01/31/051U0025/sg
+    uses: [history, documentary_trace]
+  - id: law_1952_645
+    name: "Normattiva — legge 20 giugno 1952 n. 645 (Scelba)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=052U0645&atto.dataPubblicazioneGazzetta=1952-06-23&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1952_766
+    name: "Gazzetta — legge 25 giugno 1952 n. 766 (CECA)"
+    type: institutional_primary
+    url: https://www.gazzettaufficiale.it/eli/id/1952/07/12/052U0766/sg
+    uses: [history, documentary_trace]
+  - id: law_1952_949
+    name: "Normattiva — legge 25 luglio 1952 n. 949 (occupazione)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=052U0949&atto.dataPubblicazioneGazzetta=1952-07-29&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1952_2377
+    name: "Normattiva — legge 20 dicembre 1952 n. 2377 (riforma fondiaria)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=052U2377&atto.dataPubblicazioneGazzetta=1952-12-27&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1953_62
+    name: "Normattiva — legge 10 febbraio 1953 n. 62 (organi regionali)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=053U0062&atto.dataPubblicazioneGazzetta=1953-03-03&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1953_87
+    name: "Normattiva — legge 11 marzo 1953 n. 87 (Corte costituzionale)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=053U0087&atto.dataPubblicazioneGazzetta=1953-03-14&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1953_136
+    name: "Gazzetta — legge 10 febbraio 1953 n. 136 (ENI)"
+    type: institutional_primary
+    url: https://www.gazzettaufficiale.it/eli/id/1953/03/27/053U0136/sg
+    uses: [history, documentary_trace]
+  - id: law_1953_148
+    name: "Senato — legge 31 marzo 1953 n. 148 (legge elettorale)"
+    type: institutional_primary
+    url: https://www.senato.it/3433?testo_generico=18&voce_sommario=63
+    uses: [history, documentary_trace]
+  - id: law_1953_const1
+    name: "Normattiva — legge costituzionale 11 marzo 1953 n. 1"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=053C0001&atto.dataPubblicazioneGazzetta=1953-03-14&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1948_const1
+    name: "Normattiva — legge costituzionale 9 febbraio 1948 n. 1 (antecedente)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=048C0001&atto.dataPubblicazioneGazzetta=1948-02-20&tipoDettaglio=originario
+    uses: [history, documentary_trace]
+  - id: law_1947_1546
+    name: "Normattiva — legge 3 dicembre 1947 n. 1546 (antecedente)"
+    type: institutional_primary
+    url: https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=047U1546&atto.dataPubblicazioneGazzetta=1948-01-17&tipoDettaglio=multivigenza
+    uses: [history, documentary_trace]
+  - id: ina_archivio
+    name: "Ministero Cultura SIUSA — INA Casa e continuità 1949–1963"
+    type: institutional_primary
+    url: https://siusa-archivi.cultura.gov.it/cgi-bin/pagina.pl?Chiave=43548&TipoPag=prodente
+    uses: [history, documentary_trace]
+  - id: first_leg_senate_count
+    name: "Senato — dimensioni delle Camere nella I legislatura"
+    type: institutional_primary
+    url: https://www.senato.it/show-doc?id=1209491&idoggetto=0&leg=18&part=dossier_dossier1-sezione_sezione8&tipodoc=DOSSIER
+    uses: [history, documentary_trace]

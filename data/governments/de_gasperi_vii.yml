@@ -1,0 +1,22 @@
+{
+  "id": "de_gasperi_vii",
+  "name": "VII governo De Gasperi",
+  "start_date": "1951-07-26",
+  "end_date": "1953-07-15",
+  "legislature": "I / transizione II",
+  "cabinet_parties": [
+    "dc",
+    "pri"
+  ],
+  "sources": [
+    "governo_dg_vii",
+    "first_leg_senato",
+    "storia_degasperi"
+  ],
+  "prime_minister": "Alcide De Gasperi",
+  "external_support_parties": [],
+  "contexts": [
+    "ricostruzione_dopoguerra_1948_1953",
+    "guerra_fredda_1948_1953"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fronte_democratico_popolare",
+  "name": "Fronte Democratico Popolare",
+  "category": "coalizione_elettorale",
+  "role_in_period": "opposizione",
+  "notes": "Lista/coalizione elettorale comprendente comunisti e socialisti; non confondere con un singolo partito.",
+  "sources": [
+    "first_leg_senato"
+  ]
+}
