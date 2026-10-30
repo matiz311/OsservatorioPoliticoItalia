@@ -20,5 +20,21 @@
   "contexts": [
     "ricostruzione_dopoguerra_1948_1953",
     "guerra_fredda_1948_1953"
+  ],
+  "confidence_votes": [
+    {
+      "chamber": "camera",
+      "yes": 346,
+      "no": 167,
+      "abstentions": 0,
+      "source_id": "first_leg_fiducia"
+    },
+    {
+      "chamber": "senato",
+      "yes": 184,
+      "no": 67,
+      "abstentions": 4,
+      "source_id": "first_leg_fiducia"
+    }
   ]
 }
