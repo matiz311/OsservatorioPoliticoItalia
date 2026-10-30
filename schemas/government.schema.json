@@ -59,6 +59,43 @@
       "items": {
         "type": "string"
       }
+    },
+    "confidence_votes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "chamber",
+          "yes",
+          "no",
+          "abstentions",
+          "source_id"
+        ],
+        "properties": {
+          "chamber": {
+            "enum": [
+              "camera",
+              "senato"
+            ]
+          },
+          "yes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "no": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "abstentions": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_id": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false
