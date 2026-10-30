@@ -28,6 +28,7 @@ jobs:
           python-version: '3.12'
       - run: pip install PyYAML
       - run: python scripts/build_site.py
+      - run: node --check site/app.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
